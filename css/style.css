@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 body {
-  font-family: 'Lucida Bright', sans-serif;
-  background-color: #f2e9e4;
+  font-family: 'Optima', sans-serif;
+  background-color: #00fff2;
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  background-color: #4a4e69;
-  color: #E6DCE4;
+  background-color: #0b1d96;
+  color: #eef0d5;
   text-align: center;
   padding: 20px;
   border-radius: 10px;
@@ -24,13 +24,13 @@ h2 {
 }
 
 h2, h3, p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Impact', sans-serif;
 }
 
 #main-nav {
   float: left;
   width: 100%;
-  background-color: #333;
+  background-color: #66135b;
 }
 
 #main-nav ul {
@@ -92,8 +92,6 @@ p {
 }
 
 img {
-  width: 100px;
-  height: auto;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
 }
