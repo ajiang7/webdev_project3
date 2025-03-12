@@ -32,29 +32,30 @@ p {
   border-radius: 10px;
 }
 
-nav {
-  background: #333;
-  padding: 10px 0;
+#main-nav {
+  float: left;
+  width: 100%;
+  background-color: #333;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
   padding: 0;
+  float: left;
+  position: relative;
+  left: 50%;
 }
 
-nav ul li {
-  margin: 0 15px;
+#main-nav ul li {
+  float: left;
+  position: relative;
+  right: 50%;
 }
 
-nav ul li a {
-  color: white;
+#main-nav ul li a {
+  padding: 10px 25px;
+  display: block;
   text-decoration: none;
-  font-size: 1.2rem;
-}
-
-nav ul li a:hover {
-  color: #f4f4f4;
-  text-decoration: underline;
+  color: #ccc;
 }
