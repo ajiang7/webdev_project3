@@ -80,19 +80,19 @@ ul {
 }
 
 #resume {
-  background-image: url("../media/servers.jpg");
+  background-image: url("/media/servers.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #rickrolled {
-  background-image: url("../media/rick-astley.jpg");
+  background-image: url("/media/rick-astley.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #vtubers {
-  background-image: url("../media/hololive.jpg");
+  background-image: url("/media/hololive.jpg");
   background-size: cover;
   background-position: center;
 }
