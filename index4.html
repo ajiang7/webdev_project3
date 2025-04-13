@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Professional Resume</title>
+  <title>Google Maps</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="reset" href="css/reset.css">
 </head>
@@ -24,13 +24,34 @@
 
 <script>
 function myMap() {
-var mapProp= {
-  center:new google.maps.LatLng(51.508742,-0.120850),
-  zoom:5,
-};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+  var centerLocation = new google.maps.LatLng(51.508742, -0.120850);
+
+  var mapProp = {
+    center: centerLocation,
+    zoom: 5,
+    mapTypeId: 'hybrid' // Feature 3: Map type changed from 'roadmap' to 'hybrid'
+  };
+
+  var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+  // Feature 1: Add marker
+  var marker = new google.maps.Marker({
+    position: centerLocation,
+    map: map,
+    title: "Hello from London!"
+  });
+
+  // Feature 2: Add InfoWindow
+  var infoWindow = new google.maps.InfoWindow({
+    content: "<strong>Welcome to London!</strong><br>This is a custom info window."
+  });
+
+  marker.addListener("click", function() {
+    infoWindow.open(map, marker);
+  });
 }
 </script>
+
 
 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 
