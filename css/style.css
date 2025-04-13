@@ -149,4 +149,47 @@ img:hover {
     max-width: 75%;
     padding: 30px;
   }
+  
+.slider {
+  position: relative;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slider img.slide {
+  display: none;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.slider img.active {
+  display: block;
+}
+
+.slider button.prev,
+.slider button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.slider button.prev {
+  left: 10px;
+}
+
+.slider button.next {
+  right: 10px;
+}
+
+.slider button:hover {
+  background-color: rgba(0,0,0,0.8);
 }
