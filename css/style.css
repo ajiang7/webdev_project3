@@ -103,7 +103,7 @@ img:hover {
   #vtuber-page body {
     padding: 1rem;
   }
-  
+
   #vtuber-page h1 {
     font-size: 2rem;
     padding: 30px;
@@ -117,7 +117,12 @@ img:hover {
     padding: 15px 30px;
     font-size: 1.1rem;
   }
-  
+
+  #vtuber-page section {
+    margin: 20px auto;
+    max-width: 90%;
+    padding: 20px;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -129,14 +134,19 @@ img:hover {
   #vtuber-page h1 {
     font-size: 2.5rem;
   }
-  
+
   #vtuber-page h2 {
     font-size: 30pt;
     padding: 30px;
   }
-  
+
   #vtuber-page #main-nav ul li a {
     font-size: 1.2rem;
     padding: 20px 35px;
+  }
+
+  #vtuber-page section {
+    max-width: 75%;
+    padding: 30px;
   }
 }
