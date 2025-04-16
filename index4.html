@@ -6,34 +6,22 @@
   <title>Google Maps</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="reset" href="css/reset.css">
+  <script src="js/main.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI"></script>
+	<script src="js/map.js"></script>
 </head>
 
 <body>
-	<nav id="main-nav">
-	  <ul>
-		<li><a href="index.html">Professional Resume</a></li>
-		<li><a href="index3.html">Rickrolled</a></li>
-		<li><a href="index2.html">Exploring Vtubers</a></li>
-		<li><a href="index4.html">Google Maps</a></li>
-	  </ul>
-	</nav>
-	
-<h1>My First Google Map</h1>
-
-<div id="googleMap" style="width:100%;height:400px;"></div>
-
-<script>
-function myMap() {
-var mapProp= {
-  center:new google.maps.LatLng(51.508742,-0.120850),
-  zoom:5,
-};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-</script>
-
-<script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
-<script src="js/map.js"></script>
-
+  <nav id="main-nav">
+    <ul>
+	<li><a href="index.html">Professional Resume</a></li>
+	<li><a href="index3.html">Rickrolled</a></li>
+	<li><a href="index2.html">Exploring Vtubers</a></li>
+	<li><a href="index4.html">Google Maps</a></li>
+   </ul>
+  </nav>
+  <div id="wrapper">
+    <div id="canvas"></div>
+  </div>
 </body>
 </html>
