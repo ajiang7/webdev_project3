@@ -161,6 +161,12 @@ iframe {
   height: 450px;
   border-radius: 10px;
 }
+  
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .swiper-slide img {
   width: 100%;
