@@ -1,4 +1,4 @@
-function init(){
+function initMap(){
 	var el = document.getElementById('canvas');
 
   // feature 1: added controls for zoom, map, scale, street, fullscreen, rotate
@@ -41,4 +41,4 @@ function init(){
   
 }
 
-window.addEventListener('load', init);
+window.addEventListener('load', initMap);
