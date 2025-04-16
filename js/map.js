@@ -16,9 +16,9 @@ function initMap(){
   
   // feature 2: markers for 3 locations
   const locations = [
-    { lat: 41.835117, lng: -87.627130, title: "IIT Perlstein Hall", about: "roqueyroqiue" },
-    { lat: 41.838015, lng: -87.627960, title: "MTCC", about: "adlhfkjahdslfjahsdlf" },
-    { lat: 41.833200, lng: -87.626800, title: "S.R. Crown Hall", about: "cxznmbv,znxbc,v" }
+    { lat: 41.882629, lng: -87.623474, title: "Cloud Gate", about: "Portal to Metal Bean dimension (trust)" },
+    { lat: 41.853065, lng: -87.631439, title: "Nine Dragon Wall", about: "There are actually 9 carps trapped in this wall (believe me)" },
+    { lat: 41.831750, lng: -87.627311, title: "IIT Tower", about: "Rumor has it that some students refer to this building as the Chicago's Tower of Hell (i would never lie on the internet)" }
   ];
 
   locations.forEach(function(location) {
